@@ -1,8 +1,9 @@
 
 export default function Square({value,handleClick}){
+
     return(
         <>
-        <button onClick={handleClick}>{value}</button>
-            </>
+         <button className="square" onClick={handleClick}>{value}</button>
+        </>
     )
 }
